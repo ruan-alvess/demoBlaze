@@ -1,5 +1,5 @@
 
-# Teste Técnico Zszcode 🚀
+# Teste Técnico demoBlaze 🚀
 
 Este projeto utiliza **Cypress** para testes automatizados de uma aplicação. Ele foi desenvolvido para validar funcionalidades e assegurar a qualidade do software com testes de interface e validações de fluxo. O projeto inclui relatórios de execução gerados automaticamente, facilitando a análise dos resultados.
 
@@ -92,4 +92,3 @@ Este projeto utiliza **GitHub Actions** para automação da pipeline de testes. 
 - **Artifacts**: Após a execução, os relatórios de testes, vídeos e screenshots são salvos e mantidos por 1 semana.
 - **Notificação de Erro**: Caso o job falhe, uma notificação é enviada ao Slack com detalhes do commit e link para o job, usando a URL configurada para o webhook.
 ---
-# demoBlaze
