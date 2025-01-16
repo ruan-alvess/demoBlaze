@@ -14,7 +14,7 @@ Este projeto utiliza **Cypress** para testes automatizados de uma aplicação. E
 
 ### 🛠 Tecnologias
 Este projeto utiliza as seguintes tecnologias:
-- **Cypress**: v13.15.2 - Framework para automação de testes de interface
+- **Cypress**: v14.0.0 - Framework para automação de testes de interface
 - **cypress-mochawesome-reporter**: v3.8.2 - Gerador de relatórios em HTML para execução de testes Cypress
 - **Node.js**: Recomenda-se utilizar a versão LTS para compatibilidade
 - **npm** ou **yarn**: Gerenciador de pacotes
@@ -24,7 +24,7 @@ Para instalar e configurar o projeto, siga os passos abaixo:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/genilsonf377/testeGenilson
+   git clone https://github.com/ruan-alvess/demoBlaze
    ```
 
 2. **Instale as dependências**:
@@ -92,3 +92,4 @@ Este projeto utiliza **GitHub Actions** para automação da pipeline de testes. 
 - **Artifacts**: Após a execução, os relatórios de testes, vídeos e screenshots são salvos e mantidos por 1 semana.
 - **Notificação de Erro**: Caso o job falhe, uma notificação é enviada ao Slack com detalhes do commit e link para o job, usando a URL configurada para o webhook.
 ---
+# demoBlaze
