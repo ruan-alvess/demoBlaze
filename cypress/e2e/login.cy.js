@@ -11,7 +11,6 @@ describe('Feature Login', () => {
             this.dataUser.user, 
             this.dataUser.password
         );
-        //A mensagem retornada não condiz com a documentação
         cy.validarTextoVisivel(this.messages.loginSucess)
     });
 
