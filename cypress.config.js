@@ -15,7 +15,7 @@ module.exports = {
   viewportWidth: 1600,
   viewportHeight: 900,
   e2e: {
-    baseUrl: 'https://planoaliados.com.br/portal',
+    baseUrl: 'https://demoblaze.com/',
 
     setupNodeEvents(on, config) {
       cypressMochawesomeReporter(on, config);

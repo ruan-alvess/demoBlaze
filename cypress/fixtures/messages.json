@@ -1,4 +1,4 @@
 {
-    "loginSucess": "Login realizado com sucesso!",
-    "loginInvalid" : "Usuário ou senha incorretos"
+    "loginSucess": "Welcome test",
+    "loginInvalid" : "Wrong password"
 }

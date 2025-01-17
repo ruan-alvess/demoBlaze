@@ -3,13 +3,14 @@ describe('Feature Login', () => {
     beforeEach(function () {
         cy.fixture("user").as('dataUser');
         cy.fixture("messages").as('messages');
+        cy.visit('/');
     });
 
     it('Login com sucesso', function () {
         cy.login(
             this.dataUser.user, 
             this.dataUser.password
-        )
+        );
         //A mensagem retornada não condiz com a documentação
         cy.validarTextoVisivel(this.messages.loginSucess)
     });
@@ -18,7 +19,7 @@ describe('Feature Login', () => {
         cy.login(
             this.dataUser.user, 
             this.dataUser.passwordInvalid
-        )
-        cy.validarTextoVisivel(this.messages.loginInvalid)
+        );
+        cy.validarTextoErro(this.messages.loginInvalid)
     });
 });

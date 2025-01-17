@@ -1,12 +1,12 @@
 {
-  "name": "testgenilson",
+  "name": "testdemoblaze",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
   },
-  "author": "Genilson Ferreira",
+  "author": "Ruan Alves",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^14.0.0",
