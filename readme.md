@@ -4,13 +4,13 @@
 Este projeto utiliza **Cypress** para testes automatizados de uma aplicação. Ele foi desenvolvido para validar funcionalidades e assegurar a qualidade do software com testes de interface e validações de fluxo. O projeto inclui relatórios de execução gerados automaticamente, facilitando a análise dos resultados.
 
 ## 📋 Índice
-- [Tecnologias](#tecnologias)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Relatórios de Testes](#relatórios-de-testes)
-- [Estrutura do Código](#estrutura-do-código)
-- [Integração Contínua (CI)](#integração-contínua-ci)
+- [Tecnologias](#-tecnologias)
+- [Instalação](#-instalacao)
+- [Uso](#-uso)
+- [Scripts Disponíveis](#-scripts-disponiveis)
+- [Relatórios de Testes](#-relatorios-de-testes)
+- [Estrutura do Código](#-estrutura-do-codigo)
+- [Integração Contínua (CI)](#-integracao-continua-ci)
 
 ### 🛠 Tecnologias
 Este projeto utiliza as seguintes tecnologias:
