@@ -5,7 +5,6 @@ describe('Feature Login', () => {
         cy.fixture("messages").as('messages');
         cy.visit('/');
     });
-
     it('Login com sucesso', function () {
         cy.login(
             this.dataUser.user, 
